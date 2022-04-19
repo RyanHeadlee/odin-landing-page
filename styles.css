@@ -20,7 +20,7 @@ body {
 }
 
 .header.logo {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
@@ -145,5 +145,37 @@ body {
 }
 
 .main.section4 {
-  padding: 50px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.section4 {
+  display: flex;
+  width: 1000px;
+  height: 135px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.header-section4 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+
+.text-section4 {
+  text-align: left;
+  color: #f9faf8;
+}
+
+.button-section4 {
+  background-color: inherit;
+  border: 2px solid #f9faf8;
+  border-radius: 7px;
+  padding: 5px 30px 5px 30px;
+  color: #f9faf8;
 }
