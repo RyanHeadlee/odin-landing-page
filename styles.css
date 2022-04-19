@@ -7,6 +7,10 @@ body {
   font-family: "Fira Sans", "Oswald", "Akshar";
 }
 
+button {
+  border:none;
+}
+
 .header, .footer {
   background-color: #1F2937;
   color: white;
@@ -20,8 +24,8 @@ body {
 }
 
 .header.logo {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 .header-links, .header-links a {
@@ -43,11 +47,47 @@ body {
   height: 2.5rem;
 }
 
-.container.section2 {
+.container.section1 {
   display: flex;
+  background-color: #1F2937;
+  padding: 80px;
 }
 
 .gameboy {
-  width: 150px;
-  height: auto;
+  width: 175px;
+  height: 225px;
+}
+
+.gameboy-info {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: start;
+}
+
+.info-header {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.info-para, .info-button {
+  margin: 0;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.info-button {
+  background-color: #3882f6;
+  padding: 5px 15px 5px 15px;
+}
+
+.container.section1 button {
+  align-self: flex-start;
+}
+
+
+.container.section2 {
+  display: flex;
 }
