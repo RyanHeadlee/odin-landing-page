@@ -30,7 +30,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 14px;
-  gap: 16px;
+  gap: 32px;
 }
 
 .footer {
@@ -51,7 +51,7 @@ body {
   padding: 80px;
   padding-right: 200px;
   justify-content: center;
-  gap: 100px;
+  gap: 150px;
 }
 
 .gameboy {
@@ -66,7 +66,6 @@ body {
   flex-direction: column;
   width: 350px;
   text-align: start;
-  padding-left: 75px;
   flex-shrink: none;
 }
 
@@ -178,4 +177,18 @@ body {
   border-radius: 7px;
   padding: 5px 30px 5px 30px;
   color: #f9faf8;
+}
+
+button:hover {
+  background-color: #1B5DE3;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1B5DE3;
+  transform: translateY(2px);
+}
+
+.link:hover {
+  color: #7E7984;
 }
